@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "/usr/bin/python2.7",
+    "python.linting.mypyEnabled": false,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.renderWhitespace": "all",
+    "[python]": {
+        
+    },
+    "python.linting.pep8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.rulers": [80],
+    "workbench.colorTheme": "Monokai Pro",
+    "editor.fontSize": 14,
+}
