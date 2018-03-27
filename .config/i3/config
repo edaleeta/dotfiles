@@ -37,10 +37,10 @@ set $green		 #a6e22e
 set $orange		 #f4bf75
 
 # Set background when refreshing i3
-exec_always feh --bg-fill /home/edaleeta/Pictures/bgs/wallpaper_mikael_gustafsson.png
+exec_always --no-startup-id feh --bg-fill /home/edaleeta/Pictures/bgs/wallpaper_mikael_gustafsson.png
 
 # Run window compositor on startup
-exec compton
+exec --no-startup-id compton
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -218,10 +218,10 @@ exec_always --no-startup-id ~/.bin/scripts/polybar.sh &
 bindsym $mod+Shift+x exec $HOME/.bin/scripts/lock.sh
 
 # Set screen resolution
-exec_always xrandr --output DVI-D-0 --off --output HDMI-0 --off --output DVI-I-1 --off --output DVI-I-0 --off --output DP-1 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-0 --off
+exec_always --no-startup-id xrandr --output DVI-D-0 --off --output HDMI-0 --off --output DVI-I-1 --off --output DVI-I-0 --off --output DP-1 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-0 --off
  
 # Start Spotify on startup
-exec spotify
+exec --no-startup-id spotify
 
 # Config for i3-gaps
 # Title bars must be disabled
