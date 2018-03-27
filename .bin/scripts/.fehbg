@@ -1,0 +1,2 @@
+#!/bin/sh
+'feh' '--bg-fill' '/home/edaleeta/Pictures/bgs/wallpaper_mikael_gustafsson.png' 
